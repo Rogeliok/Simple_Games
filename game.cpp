@@ -151,7 +151,7 @@ void interval_setting(int *number) {
         } WRONG_INPUT(input_string)
     }
 }
- 
+
 string get_word(char difficulty) {
     string word = "\0";
     ifstream file("words.txt", ios_base::in);
